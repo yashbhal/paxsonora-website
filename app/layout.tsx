@@ -27,11 +27,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${inter.variable}`} suppressHydrationWarning>
       <head>
-        <link rel="preload" href="https://waitlister.me/js/embed.js" as="script" />
-        <Script 
-          src="https://waitlister.me/js/embed.js" 
-          strategy="beforeInteractive"
-        />
       </head>
       <body className="antialiased">
         <ThemeProvider

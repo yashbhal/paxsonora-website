@@ -85,12 +85,14 @@ const HeroSection: React.FC = () => {
         </motion.p>
 
         <motion.div variants={itemVariants}>
-          <Link 
-            href="/waitlist" 
+          <a 
+            href="https://tally.so/r/w7zjv0" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-primary text-primary-foreground font-sans font-semibold py-3 px-8 sm:py-4 sm:px-10 rounded-xlarge text-lg transition-all duration-300 shadow-pax hover:shadow-pax-lg hover:bg-primary/90 hover:-translate-y-1"
           >
             Join the waitlist
-          </Link>
+          </a>
         </motion.div>
       </motion.div>
     </section>
